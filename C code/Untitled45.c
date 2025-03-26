@@ -1,16 +1,16 @@
 #include <stdio.h>
 
-int test(double i[5]){
-    i[0] = 2.5;
-    i[3] = 6.5;
-    i[6] = 9.5;
+int test(double x[]){
+    x[0] = 2.5;
+    x[3] = 6.5;
+    x[6] = 9.5;
     return 0;
 }
 
 int main(){
-    double i[5];
+    double x[5];
 
-    printf("%d", test(i));
+    printf("%d", test(x));
 
     return 0;
 }
