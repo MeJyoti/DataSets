@@ -1,16 +1,16 @@
 #include <stdio.h>
 
-int test(long long i[5]){
-    i[0] = 25;
-    i[3] = 65;
-    i[6] = 95;
+int test(long long x[]){
+    x[0] = 25;
+    x[3] = 65;
+    x[6] = 95;
     return 0;
 }
 
 int main(){
-    long long i[5];
+    long long x[5];
 
-    printf("%d", test(i));
+    printf("%d", test(x));
 
     return 0;
 }
